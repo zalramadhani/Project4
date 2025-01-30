@@ -2,20 +2,20 @@ package Demo1;
 
 public class DemoTest4 {
 	public static void main(String[] args) {
-		System.out.println("ZAID & SALLY LIVE IN TAMPA");
+			System.out.println("Batch13: GIT LECTURE");
 		
-		int Sally = 31; 
-		int Zaid = 36; 
+		int a = 10; 
+		int b = 20; 
 		
-		int result = Zaid + Sally; 
 		
-		DemoTest4 b = new DemoTest4 (); 
-		b.add("Zaid", 36);
+		int result = a + b; 
 		
+		System.out.println(result);
+
 		
 	}
 	
-	public void add (String name, int a) { 
-		System.out.println(name + a);
+	public void add (int a, int b) { 
+		System.out.println(a + b);
 	}
 }
